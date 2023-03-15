@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.lead {
+margin: auto 0px;
+height: 60px;
+background-color: #690;
+position: fixed;
+top: 0;
+left: 0;
+padding: 25px 100px;
+width: 100%;
+display: flex;
+align-items: center;
+transition:  0.5s;
+}
+
+.lead ul {
+list-style: none;
+margin-left: 50px;
+}
+
+.lead li {
+display: inline;                
+}
+
+.lead a {
+line-height: 60px;
+color: #fff;
+text-decoration: none;
+padding: 20px 20px;
+}
+
+.lead a:hover {
+background-color: #060;
+}
+
+.container{
+    width: 90%;
+    background-color: #fff;
+    padding:20px;
+    margin:70px auto;
+    border-radius: 8px;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.title{
+    color: rgba(255, 166, 0);
+    text-align:center
+}
+
+.box{
+    display:flex;
+    background-color: #fff;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 0px;
+    align-items: flex-start;
+}
+
+.box1{
+    padding: 0px;
+    background-color: #fff;
+    align-items: center;
+}
+
+.box2{
+    background-color: #fff;
+    font-size: 13pt;
+}
+
+
+.boxa{
+    display:flex;
+    background-color: #fff;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.boxa1{
+    background-color: #fff;
+}
+
+.boxa1 img{
+    border-radius:50%;
+}
+
+
+.boxa2{
+    background-color: #fff;
+    font-size: 13pt;
+}
+
+.boxa2 ul{
+    font-size: 15pt;
+}
+
+.text1{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.text1 li{
+    padding: 5px;
+}
+
+.boxb{
+    display:flex;
+    padding: 0px;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.boxb1{
+    background-color: #fff;
+}
+
+.boxb2{
+    background-color: #fff;
+    font-size: 20px;
+}
+
+.boxb2 li{
+    margin: 10px;
+}
+
+.boxc{
+    background-color: #fff;
+    align-items: center;
+    border-radius: 20px;
+    padding-bottom: 0px;
+    padding: 0px;
+}
+
+.boxc1{
+    height: 750px;
+    display: flex;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 0px;
+    padding-bottom: 0px;
+    align-items: center;
+    padding-bottom: 0px;
+}
+
+.boxc2{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0px;
+    padding-top: 0px;
+}
+
+.boxc2 li{
+    padding: 40px;
+    padding-left: 10px;
+}
+
+.boxc3{
+    background-color: transparent;
+}
+
+.boxc4{
+    background-color: transparent;
+    margin: 0px;
+    padding-top: 0px;    
+}
+
+.boxd{
+    display:flex;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.boxd1{
+    background-color: #fff;
+    margin: 10px;
+}
+
+.boxd2{
+    background-color: #fff;
+    width: 500px；
+}
+
+.boxd2 p{
+    margin: 8px;
+}
+
+.boxe{
+    display:flex;
+    background-color: #fff;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 0px;
+    align-items: center;
+}
+
+.boxe1{
+    background-color: #fff;
+}
+
+.boxe1 p{
+    padding: 10px;
+}
+
+.boxe2{
+    background-color: #fff;
+}
+
+.text2{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.text2 p{
+    padding: 10px;
+}
+
+.footer1{
+    background-color: transparent;
+    padding-left: 0px;
+}
+
+.footer1 img{
+    width: 300px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+
+.footer2{
+    margin: auto 0px;
+    height: 60px;
+    background-color: #690;
+    top: 0;
+    left: 0;
+    padding: 25px 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition:  0.5s;
+}
+
+.footer2 h1{
+    font-size: 14px;
+}
+
+@keyframes translate {
+    10% {transform: translate(30px, 0px);}
+    20% {transform: translate(150px, 0px)}
+    25% {transform: rotate(45deg);}
+    30% {transform: rotate(90deg);}
+    35% {transform: rotate(135deg);}
+    40% {transform: rotate(180deg);}
+    45% {transform: translate(210px, 0px);}
+    50% {transform: translate(390px, 0px);}
+    55% {transform: translate(560px, 0px);}
+    60% {transform: translate(720px, 0px);}
+    70% {transform: translate(530px, 0px);}
+    80% {transform: translate(330px, 0px);}
+    90% {transform: translate(250px, 0px);}
+    100% {transform: translate(30px, 0px);}
+}
+
+@keyframes rotation {
+    0% {transform: rotate(45deg);}
+  25%  {transform: rotate(90deg);}
+  50%  {transform: rotate(135deg);}
+  100% {transform: rotate(180deg);}    
+}
+
+.footer1 img{
+    animation-name: translate;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.footer1 img:hover{
+    animation-name: rotation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
